@@ -1,0 +1,42 @@
+{
+  "name": "heal-journal",
+  "private": true,
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "homepage": "https://gethealing.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewDavidHurtado/heal-journal.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.8.1",
+    "zod": "^3.22.4",
+    "hash.js": "^1.1.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vite-plugin-pwa": "^0.19.0",
+    "workbox-window": "^7.0.0"
+  }
+}
